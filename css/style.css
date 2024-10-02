@@ -102,9 +102,9 @@ footer i:hover{
 .contac_form input:hover,.contac_form textarea:hover{
     border-color: #009ad8 !important;
 }
-.company_name{
-    width: 80%;
-}
+/* .company_name{
+    width: 100%;
+} */
 
 
 
@@ -121,5 +121,8 @@ footer i:hover{
     }
     .x::placeholder{
         font-size: 0.6rem;
+    }
+    .desc{
+        height: 100% !important;
     }
 }
