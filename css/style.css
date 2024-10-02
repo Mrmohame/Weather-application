@@ -108,6 +108,18 @@ footer i:hover{
 
 
 
-.AlldayStyle{
-    color: white !important;
+
+
+
+
+@media screen and (min-width:0px) and (max-width : 900px) {
+    .degreFont{
+        font-size: 3.9rem;
+    }
+    ::placeholder{
+        font-size: 1rem;
+    }
+    .x::placeholder{
+        font-size: 0.6rem;
+    }
 }
