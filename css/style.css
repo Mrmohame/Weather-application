@@ -1,0 +1,113 @@
+body{
+    background: #1e202b;
+    color: #bfc1c8 ;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+a{
+    color: white !important;
+}
+.logo_img{
+    width: 4.5rem;
+}
+.nav-item{
+    border: 1px solid transparent;
+}
+.nav-item:hover{
+border: 1px solid #009ad8;
+
+}
+.nav-item:hover .nav-link{
+    color: #009ad8 !important;
+}
+.inner{
+background-image: url(../images/images1\ \(1\).png);
+height: 352px;
+background-size: cover;
+}
+input , textarea{
+    background: #1e202b !important;
+    border-color: #1e202b !important;
+color: #bfc1c8 !important;
+}
+::placeholder{
+    color: #fff !important;
+}
+.inner2{
+    top: -8.5rem;
+}
+.card2-bg1{
+background: #222531 ;
+}
+.card2-bg2{
+   background:  #262936 ;
+}
+.card3-bg1{
+    background: #2d303d;
+}
+.card3-bg2{
+    background: #323544;
+}
+.degreFont{
+    font-size: 5rem;
+}
+.celesious{
+    top: -15px;
+    font-size: 1.2rem;
+
+}
+
+.badge{
+    background: #009ad8;
+    cursor: pointer;
+}
+.celesious1{
+    top: -45px;
+    font-size: 2rem;
+}
+footer{
+    background: #262936;
+}
+footer i{
+    background-color: #1e202b;
+   padding: 10px;
+    border-radius: 50%;
+    transition: all 0.4s;
+    color: #009ad8;
+}
+footer i:hover{
+    background-color: #009ad8;
+    color: white;
+}
+
+/* contact page */
+.bradcrumb{
+    background: #222531;
+    color: white !important;
+}
+.contact_desc{
+    width: 95%;
+}
+.desc{
+    background: #262936 ;
+}
+
+.contac_form input,.contac_form textarea{
+    border: 3px solid #222531 !important;
+    padding: 10px;
+}
+.contac_form input:hover,.contac_form textarea:hover{
+    border-color: #009ad8 !important;
+}
+.company_name{
+    width: 80%;
+}
+
+
+
+.AlldayStyle{
+    color: white !important;
+}
