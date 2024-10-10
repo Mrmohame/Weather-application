@@ -1,16 +1,17 @@
 const inputValue=document.getElementById("demo");
-let location1=document.getElementById("location1")
-let temper1=document.getElementById("temp1")
-let data1=document.getElementById("data1")
-let AllDayWeather=document.getElementById("AllDayWeather")
-let weekArr=["sunday","monday","tuestay","wendsday","thursday","friday","tuestay"]
-let monthArr=["January","February","March","April","May","June","July","August","September","October","November","December"]
+const location1=document.getElementById("location1")
+const temper1=document.getElementById("temp1")
+const data1=document.getElementById("data1")
+const AllDayWeather=document.getElementById("AllDayWeather")
+const weekArr=["sunday","monday","tuestay","wendsday","thursday","friday","tuestay"]
+const monthArr=["January","February","March","April","May","June","July","August","September","October","November","December"]
 let globalValu;
 let nol;
 
   inputValue.addEventListener("input", (e)=>{
+    if(inputValue.value.length > 2){
     getWeather(inputValue.value)
-    
+    }
 })
 
 
