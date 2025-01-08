@@ -27,7 +27,7 @@ displayData()
 }
 
 
-async function display1(par1){
+async function display1(par1="cairo"){
 
     let response=await fetch(`https://api.weatherapi.com/v1/forecast.json?key=fbba5b7266a840ada78214513242609&q=${par1}&days=3`);
 let data=await response.json();
